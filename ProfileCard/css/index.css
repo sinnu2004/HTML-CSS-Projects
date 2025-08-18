@@ -1,0 +1,147 @@
+
+.blue_box {
+    height: 100px;
+    width: 200px;
+    border: 2px 2px 0px 2px;
+    border-color: #4070f4;
+    border-style: solid;
+    background-color: #4070f4;
+    background-color: #4070f4;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile_img {
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    background-color: #4070f4;
+    border: 2px solid #4070f4;
+}
+
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-top: 0px;
+    border: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: rgb(228, 224, 224);
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Lab {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: x-large;
+}
+.work {
+    margin-bottom: 5%;
+    padding: 0px;
+    font-size: small;
+}
+
+.logo_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 150px;
+}
+
+#twitter {
+    border-radius: 300px;
+    height: 25px;
+    width: 25px;
+}
+.connect {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    height: 20px;
+    width: 80px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: small;
+    color: #fff;
+    background-color: #4070f4;
+    border-style: none;
+    cursor: pointer
+}
+
+.message {
+    height: 20px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: small;
+    color: #fff;
+    background-color: #4070f4;
+    border-style: none;
+    cursor: pointer;
+}
+
+.subscribe:hover{
+    background-color: #0e4bf1;
+}
+
+.message:hover {
+    background-color: #0e4bf1;
+}
+.icon_container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.image {
+    height: 20px;
+}
+
+.interaction {
+   color: black;
+   padding-right: 10px;
+   border-right: 2px solid black;
+}
+
+.icon_container :last-child {
+    border: none;
+}
